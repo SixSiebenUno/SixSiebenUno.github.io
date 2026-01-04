@@ -2,6 +2,8 @@
 
 <p style="margin: 20px 10px -15px;">* indicates equal contribution.</p>
 
+<h3 id="conferences" style="margin: 30px 5px -20px;">Conferences</h3>
+
 <div class="publications">
 <ol>
 
@@ -15,9 +17,9 @@
       <div class="periodical"><em>{{ link.conference }}</em>
       </div>
     <div class="links">
-      {% if link.pdf %} 
+      <!-- {% if link.pdf %} 
       <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
+      {% endif %} -->
       {% if link.code %} 
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
@@ -43,3 +45,25 @@
 </ol>
 </div>
 
+<h3 id="tutorials" style="margin: 0px 5px -20px;">Tutorial and Preprints</h3>
+
+<div class="publications">
+<ol>
+
+{% for link in site.data.preprints.main %}
+
+<li>
+<div class="pub-row">
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 10px;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      <div class="periodical"><em>{{ link.conference }}</em>
+      </div>
+  </div>
+</div>
+</li>
+
+{% endfor %}
+
+</ol>
+</div>

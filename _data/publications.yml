@@ -1,8 +1,12 @@
 main:
-  - title: "Secure Multi-Party Sampling over Joins"
-    authors: <strong>Qiyao Luo</strong>, Quanqing Xu, and Chuanhui Yang
-    conference: VLDB under revision, 2026.
+  # - title: "Secure Multi-Party Sampling over Joins"
+  #   authors: <strong>Qiyao Luo</strong>, Quanqing Xu, and Chuanhui Yang
+  #   conference: VLDB under revision, 2026.
   
+  - title: "Defense against Poisoning Attacks under Shuffle-DP"
+    authors: Siyi Wang*, <strong>Qiyao Luo*</strong>, Yihua Hu*, Lixu Wang, Quanqing Xu, Chuanhui Yang, Zhan Qin, Kui Ren, and Wei Dong
+    conference: Proceedings of the ACM on Management of Data <strong>(SIGMOD)</strong>, 2026.
+
   - title: "Secure Query Processing with Linear Online Cost"
     authors: <strong>Qiyao Luo*</strong>, Yilei Wang*, Wei Dong, and Ke Yi. 
     conference: IEEE International Conference on Data Engineering <strong>(ICDE)</strong>, 2026.
@@ -10,31 +14,34 @@ main:
   - title: "RM<sup>2</sup>: Answer Counting Queries Efficiently under Shuffle Differential Privacy"
     authors: <strong>Qiyao Luo</strong>, Jianzhe Yu, Wei Dong, Quanqing Xu, Chuanhui Yang, and Ke Yi.
     conference: Proceedings of the ACM on Management of Data <strong>(SIGMOD)</strong>, 2025.
-
-  - title: "How to Answer Secure and Private SQL Queries?"
-    authors: <strong>Qiyao Luo*</strong>, Quanqing Xu*, and Chuanhui Yang.
-    conference: IEEE International Conference on Data Engineering <strong>(ICDE)</strong>, 2025.
+    pdf: ./assets/files/RM2.pdf
 
   - title: Almost Instance-optimal Clipping for Summation Problems in the Shuffle Model of Differential Privacy
     authors: Wei Dong, <strong>Qiyao Luo</strong>, Giulia Fanti, Elaine Shi, and Ke Yi.
     conference: ACM SIGSAG Conference on Computer and Communications Security <strong>(CCS)</strong>, 2024.
+    pdf: ./assets/files/ShuffleSum.pdf
 
   - title: Secure Sampling for Approximate Multi-party Query Processing
     authors: <strong>Qiyao Luo</strong>, Yilei Wang, Ke Yi, Sheng Wang, and Feifei Li.
     conference: Proceedings of the ACM on Management of Data <strong>(SIGMOD)</strong>, 2024.
+    pdf: ./assets/files/SecureSample.pdf
 
   - title: Relational Algorithms for Top-k Query Evaluation
     authors: Qichen Wang*, <strong>Qiyao Luo*</strong>, and Yilei Wang*.
     conference: Proceedings of the ACM on Management of Data <strong>(SIGMOD)</strong>, 2024.
+    pdf: ./assets/files/SecureTopK.pdf
 
   - title: Continual Observation of Joins under Differential Privacy
     authors: Wei Dong, Zijun Chen, <strong>Qiyao Luo</strong>, Elaine Shi, and Ke Yi.
     conference: Proceedings of the ACM on Management of Data <strong>(SIGMOD)</strong>, 2024.
+    pdf: ./assets/files/COJoin.pdf
 
   - title: Continual Observation under User-level Differential Privacy.
     authors: Wei Dong, <strong>Qiyao Luo</strong>, and Ke Yi. 
     conference: IEEE Symposium on Security and Privacy <strong>(S&P)</strong>, 2023.
+    pdf: ./assets/files/CODP.pdf
 
   - title: Frequency Estimation in the Shuffle Model with Almost a Single Message
     authors: <strong>Qiyao Luo</strong>, Yilei Wang, and Ke Yi.
     conference: ACM SIGSAG Conference on Computer and Communications Security <strong>(CCS)</strong>, 2022.
+    pdf: ./assets/files/ShuffleFE.pdf
