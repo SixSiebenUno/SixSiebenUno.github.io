@@ -1,11 +1,11 @@
 main:
   - title: "How to Answer Secure and Private SQL Queries?"
     authors: <strong>Qiyao Luo*</strong>, Quanqing Xu*, and Chuanhui Yang.
-    conference: ICDE Tutorial, 2025.
+    conf: ICDE Tutorial, 2025.
     pdf: ./assets/files/SPQuery.pdf
   
   - title: "Secure Multi-Party Query Processing"
-    authors: PhD Thesis, 2024.
+    conf: PhD Thesis, 2024.
 
   - title: "Secure Machine Learning over Relational Data"
     authors: <strong>Qiyao Luo</strong>, Yilei Wang, Zhenghang Ren, Ke Yi, Kai Chen, and Xiao Wang. 2022.
