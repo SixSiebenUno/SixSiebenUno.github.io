@@ -1,7 +1,9 @@
 main:
-  # - title: "Secure Multi-Party Sampling over Joins"
-  #   authors: <strong>Qiyao Luo</strong>, Quanqing Xu, and Chuanhui Yang
-  #   conference: VLDB under revision, 2026.
+  - title: "Secure Multi-Party Sampling over Joins"
+    authors: <strong>Qiyao Luo</strong>, Quanqing Xu, and Chuanhui Yang
+    conference: International Conference on Very Large Data Bases
+    short: VLDB
+    year: 2026
   
   - title: "Defense against Poisoning Attacks under Shuffle-DP"
     authors: Siyi Wang*, <strong>Qiyao Luo*</strong>, Yihua Hu*, Lixu Wang, Quanqing Xu, Chuanhui Yang, Zhan Qin, Kui Ren, and Wei Dong
