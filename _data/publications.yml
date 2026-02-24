@@ -4,6 +4,12 @@ main:
     conference: International Conference on Very Large Data Bases
     short: VLDB
     year: 2026
+
+  - title: "Sketch-based Secure Query Processing for Streaming Data"
+    authors: Jianzhe Yu, Feng Han, Qi Dong, <strong>Qiyao Luo</strong>, Weiran Liu, Lin Qu, and Ke Yi
+    conference: Proceedings of the ACM on Management of Data
+    short: SIGMOD
+    year: 2026
   
   - title: "Defense against Poisoning Attacks under Shuffle-DP"
     authors: Siyi Wang*, <strong>Qiyao Luo*</strong>, Yihua Hu*, Lixu Wang, Quanqing Xu, Chuanhui Yang, Zhan Qin, Kui Ren, and Wei Dong
